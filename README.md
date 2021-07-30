@@ -56,7 +56,7 @@ ________________________________________________________________________________
 
 #### Objective: Refactor the Polygons (sequence) type, into an **iterable**. Make sure also that the elements in the iterator are computed lazily - i.e. you can no longer use a list as an underlying storage mechanism for your polygons.
 
-#### customPolygon :
+#### Polygon_Sequence :
 + This class creates a iterable of polygon objects. It has the following attributes and methods
 
     ##### Attributes
@@ -79,7 +79,7 @@ ________________________________________________________________________________
         - Defining a iterator method for the custom_polygon_iterable class
         - input - self - custom_polygon_iterable class object
         - return - iterator object of the custom_polygon_iterator class
-    * __Class custom_polygon_iterator__
+    * __Class PolygonIterator__
         - This internal class creates a iterator object for the custom_polygon_iterable class
         ##### Methods
         --------------
