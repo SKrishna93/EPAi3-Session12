@@ -2,6 +2,8 @@
 
 ## Iterators and Iterables
 
+![DeepNote](https://deepnote.com/project/Untitled-Python-Project-nShG1VFHRIKzfgq5PNbbxg/%2Fsession12_notebook.ipynb)
+
 ### Question - 1
 
 #### Objective: Refactor the Polygon class so that all the calculated properties are lazy properties, i.e. they should still be calculated properties, but they should not have to get recalculated more than once (since we made our Polygon class "immutable").
